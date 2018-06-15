@@ -2,6 +2,15 @@
   height: 100vh;
 }
 
-.border-custom {
-  border-bottom-width: 3px !important;
+.anchor-custom-active {
+  border-bottom-width: 0.25rem !important;
+}
+
+.anchor-custom {
+  border-bottom: 0.25rem solid transparent;
+}
+
+.anchor-custom:hover {
+  text-decoration: none;
+  border-bottom: 0.25rem solid greenyellow;
 }
