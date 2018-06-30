@@ -1,0 +1,17 @@
+.container-header-height-custom {
+  height: 50px;
+}
+
+.font-size-24-custom {
+  font-size: 24px;
+  line-height: 1.2 !important;
+}
+
+.dash-white-custom {
+  width: 30px;
+  border: 2px solid white;
+}
+
+#demo {
+  transition: hidden 2s ease-in-out;
+}
