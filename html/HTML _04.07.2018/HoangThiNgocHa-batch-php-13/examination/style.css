@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.image{
+    width: 100%;
+    height:350px;
+
+}
+
+.btn-warning{
+    width: 90%;
+}
+.banner-aptech{
+    width: 70%;
+    height: 100px;
+}
+.banner-image{
+    width: 100%;
+    height: 400px;
+}
+.text-slide{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.text-slide p{
+    font-size: 40px;
+    color:rgb(68, 205, 50);
+}
+.name{
+     font-family: Libre Baskerville;
+     font-weight: 600;
+     font-size: 40px;
+}
+.nav .nav-item a{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+}
+.nav .nav-item a:hover{
+    color: rgb(151, 58, 23);
+    font-size:24px; 
+    border:2px solid rgb(192, 180, 13);
+    border-radius: 5px;
+}
+.navigation-list li a, .about-list li a{
+    color: rgb(145, 149, 153);
+    text-decoration: none;
+    font-weight: 200;
+}
+.navigation-list li a:hover, .about-list li a:hover{
+    color: rgb(56, 56, 99);
+}
+
+.btn-info,.btn-success{
+    font-size: 22px;
+}
+
+.sideNavigation{
+    position: relative;
+    display: none;
+    z-index: 18;
+}
+.sideNav-responsive{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: azure;
+    overflow-x: hidden;
+    transition: 0.7s;
+
+}
+.sideNav-responsive a{
+    z-index:2;
+    text-decoration: none;
+    color: rgb(102, 129, 59);
+    font-size: 16px;
+    transition: 0.4s;
+    opacity: 0.6;
+    display: block;
+    padding: 10px;
+}
+.sideNav-responsive a:first-child{
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin-left: 50px;
+}
+.sideNav-responsive a:hover{
+    color: rgb(187, 20, 76);
+    font-size: 30px;
+    opacity: 1;
+
+}
+.btn-info:hover,.btn-success:hover{
+    width: 200px;
+    transform: rotate(360deg);
+    transition: transform 4s;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(30, 202, 194);
+    border-radius: 50%;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#nav-bar{
+    overflow: hidden;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    z-index: 17;
+    color: black;
+}
+
+.sticky + .carousel-intro{
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 767px){
+    .navigation-res,.carousel-intro,.subcrise-text,.btn-sign-up,.nav-medium{
+        display: none;
+    }
+    .sideNavigation{
+        display: block;
+    }
+}

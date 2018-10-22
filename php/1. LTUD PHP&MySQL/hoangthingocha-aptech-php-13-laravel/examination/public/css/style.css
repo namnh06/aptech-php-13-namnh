@@ -1,0 +1,19 @@
+th.id{
+    width: 10%;
+}
+th.name{
+    width: 25%;
+}
+th.action{
+    width:10%;
+}
+h1.title{
+    font-size: 45px;
+    color: rgb(27, 109, 218);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}

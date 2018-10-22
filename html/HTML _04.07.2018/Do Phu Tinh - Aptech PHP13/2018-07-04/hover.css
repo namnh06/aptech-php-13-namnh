@@ -1,0 +1,11 @@
+/* ul li {
+    display: inline-block;
+} */
+
+ul li:hover {
+    background: red;
+}
+
+ul li:hover ul {
+    display: block;
+}
